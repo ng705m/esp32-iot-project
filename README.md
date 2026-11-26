@@ -5,7 +5,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 
 溫濕度與煙霧監測裝置，具備 OLED 顯示、伺服馬達控制、MQTT 上傳，以及 n8n 自動通知。
 
-## Features / 功能
+## Features 
 
 - DHT22 temperature & humidity / 溫濕度讀取
 - MQ-2 smoke sensor / 煙霧感測
@@ -14,7 +14,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - MQTT upload to CloudAMQP / MQTT 數據上傳
 - n8n automation with email alert / n8n 自動 Email 通知
 
-## Hardware / 硬體
+## Hardware 
 
 - ESP32
 - DHT22
@@ -23,7 +23,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - SG90 Servo
 - Breadboard & Dupont wires
 
-## Tools / 工具
+## Tools 
 
 - PlatformIO (VS Code)
 - EasyEDA (Schematic & PCB)
@@ -31,7 +31,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - n8n
 - CloudAMQP
 
-## Progress / 進度
+## Progress 
 
 - [x] Sensor reading & wiring / 感測器接線與讀取
 - [x] OLED display
@@ -42,7 +42,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - [ ] PCB soldering & assembly / 電路板焊接組裝
 - [ ] 3D print & final test / 3D 列印與最終測試
 
-## Notes / 說明
+## Notes 
 
 Full process from hardware bring-up, sensor integration, cloud upload, automation, PCB design to enclosure modeling.
 
