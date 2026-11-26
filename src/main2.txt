@@ -1,0 +1,86 @@
+#include <Arduino.h>
+#include <DHT.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+// DHT22
+#define DHTPIN 4
+#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
+
+// MQ-2
+#define MQ2_PIN 2   // AO 接在 D2
+
+// OLED
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+#define OLED_RESET -1
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+  Wire.begin(21, 22);
+
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println("OLED 啟動失敗");
+    while (1);
+  }
+
+  display.clearDisplay();
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(0, 0);
+  display.println("Sensor Ready");
+  display.display();
+  delay(1000);
+}
+
+void loop() {
+  float humidity = dht.readHumidity();
+  float temperature = dht.readTemperature();
+  int smoke = analogRead(MQ2_PIN);   // 讀取煙霧數值 (0-4095)
+
+    display.clearDisplay();
+  display.setTextColor(SSD1306_WHITE);
+
+  // 標題（小字）
+  display.setTextSize(1);
+  display.setCursor(0, 0);
+  display.println("Temp / Hum / Smoke");
+
+  // 數值用大字
+  display.setTextSize(2);
+
+  if (isnan(humidity) || isnan(temperature)) {
+    display.setCursor(0, 20);
+    display.println("DHT Error");
+  } else {
+    display.setCursor(0, 18);
+    display.print(temperature, 1);
+    display.println("C");
+
+    display.setCursor(0, 40);
+    display.print(humidity, 1);
+    display.println("%");
+  }
+
+  // 煙霧用小字放在底部
+  display.setTextSize(1);
+  display.setCursor(70, 50);
+  display.print("S:");
+  display.println(smoke);
+
+  display.display();
+
+  // Serial 輸出
+  Serial.print("溫度: ");
+  Serial.print(temperature);
+  Serial.print(" °C | 濕度: ");
+  Serial.print(humidity);
+  Serial.print(" % | 煙霧: ");
+  Serial.println(smoke);
+
+  delay(2000);
+}
