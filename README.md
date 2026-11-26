@@ -4,7 +4,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 
 溫濕度與煙霧監測裝置，具備 OLED 顯示、伺服馬達控制、MQTT 上傳，以及 n8n 自動通知。
 
-[ESP32 Environment Monitoring System Demo]([https://youtu.be/v3MZA-vUC08](https://youtu.be/v3MZA-vUCO8))
+[ESP32 Environment Monitoring System Demo](https://youtu.be/v3MZA-vUC08)
 
 ## Features 
 
