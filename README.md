@@ -1,5 +1,4 @@
-# ESP32 IoT Smart Monitoring System  
-ESP32 智能監控系統
+# ESP32 IoT Smart Monitoring System / 智能監控系統
 
 Environment monitoring device with temperature, humidity, smoke sensing, OLED display, servo control, MQTT upload, and n8n automation with email alerts.
 
