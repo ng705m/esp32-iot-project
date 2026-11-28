@@ -33,32 +33,31 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - n8n
 - CloudAMQP
 
-## Progress 
+## Progress
 
- Sensor reading & wiring
+- [x] **Sensor reading & wiring**  
+  Successfully connected and read data from DHT22 (temperature & humidity) and MQ-2 (smoke sensor) on ESP32.
 
-Successfully connected and read data from DHT22 (temperature & humidity) and MQ-2 (smoke sensor) on ESP32.
- OLED display
+- [x] **OLED display**  
+  Real-time display of temperature, humidity, and smoke values on a 0.96" OLED screen via I2C.
 
-Real-time display of temperature, humidity, and smoke values on a 0.96" OLED screen via I2C.
- MQTT upload
+- [x] **MQTT upload**  
+  Sensor data is packaged in JSON and continuously uploaded to CloudAMQP via MQTT.
 
-Sensor data is packaged in JSON and continuously uploaded to CloudAMQP via MQTT.
- n8n automation & email
+- [x] **n8n automation & email**  
+  Self-hosted n8n (Docker) receives data and sends automated email alerts when temperature exceeds the threshold.
 
-Self-hosted n8n (Docker) receives data and sends automated email alerts when temperature exceeds the threshold.
- EasyEDA PCB design
+- [x] **EasyEDA PCB design**  
+  Designed custom PCB schematic and layout in EasyEDA based on the breadboard prototype.
 
-Designed custom PCB schematic and layout in EasyEDA based on the breadboard prototype.
- Fusion 360 enclosure
+- [x] **Fusion 360 enclosure**  
+  Designed a 3D-printable enclosure with cutouts for OLED, sensors, and servo motor.
 
-Designed a 3D-printable enclosure with cutouts for OLED, sensors, and servo motor.
- PCB soldering & assembly
+- [ ] **PCB soldering & assembly**  
+  Waiting for PCB to arrive. Next step is soldering components and assembling the board.
 
-Waiting for PCB to arrive. Next step is soldering components and assembling the board.
- 3D print & final test
-
-Enclosure will be 3D printed, followed by full system integration and final testing.
+- [ ] **3D print & final test**  
+  Enclosure will be 3D printed, followed by full system integration and final testing.
 
 https://github.com/user-attachments/assets/40baa2ea-6b87-4b77-9cc9-2a9f893a4632
 
