@@ -1,4 +1,4 @@
-# ESP32 IoT Smart Monitoring System / 智能監控系統
+<img width="706" height="534" alt="螢幕截圖 2026-11-28 下午3 46 31" src="https://github.com/user-attachments/assets/322821e4-1826-4a2e-8849-a32238c2c288" /># ESP32 IoT Smart Monitoring System / 智能監控系統
 
 Environment monitoring device with temperature, humidity, smoke sensing, OLED display, servo control, MQTT upload, and n8n automation with email alerts.
 
@@ -38,8 +38,10 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - [x] OLED display
 - [x] MQTT upload
 - [x] n8n automation & email
-- [x] EasyEDA PCB design
-- [x] Fusion 360 enclosure
+- [x] EasyEDA PCB design <img width="668" height="566" alt="PCB" src="https://github.com/user-attachments/assets/45a4ead2-55c3-4926-815c-47ba28a2de46" />
+
+- [x] Fusion 360 enclosure<img width="706" height="534" alt="3D print" src="https://github.com/user-attachments/assets/e2c33704-92fd-432f-af53-b3133e886a4c" />
+
 - [ ] PCB soldering & assembly / 電路板焊接組裝
 - [ ] 3D print & final test / 3D 列印與最終測試
 
