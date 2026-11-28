@@ -35,7 +35,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 
 ## Progress 
 
-- [x] Sensor reading & wiring / 感測器接線與讀取
+- [x] Sensor reading & wiring / 感測器接線與讀取Successfully connected and read data from DHT22 (temperature & humidity) and MQ-2 (smoke sensor) on ESP32.
 - [x] OLED display
 - [x] MQTT upload
 - [x] n8n automation & email
