@@ -14,8 +14,8 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - **n8n Automation Deployment Issue**  
   Email alerts initially failed to trigger automatically in production. Resolved by switching from the Test Webhook to the Production URL and publishing the workflow, enabling fully hands-free operation.
 
-- **Gmail SMTP Integration**  
-  Encountered authentication and connection failures with Gmail. Successfully fixed by using a Google App Password and switching to Port 465 with SSL, ensuring reliable email delivery.
+- **OLED Display & I2C Debugging**  
+  The OLED screen showed no output despite correct wiring. Used an I2C Scanner to identify the correct device address (0x3C) and resolved the issue by confirming proper initialization and stable power supply.
 
 ## Features 
 
