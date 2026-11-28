@@ -9,7 +9,7 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 ## Testing & Troubleshooting
 
 - **End-to-End Email Alert Latency**  
-  Verified that when temperature exceeded the 30°C threshold, the full flow (sensor → MQTT → n8n → Email) successfully delivered the alert within approximately **3 seconds**.
+  Verified that when temperature exceeded the 28°C threshold, the full flow (sensor → MQTT → n8n → Email) successfully delivered the alert within approximately **3 seconds**.
 
 - **n8n Automation Deployment Issue**  
   Email alerts initially failed to trigger automatically in production. Resolved by switching from the Test Webhook to the Production URL and publishing the workflow, enabling fully hands-free operation.
