@@ -1,4 +1,4 @@
-<img width="965" height="716" alt="螢幕截圖 2026-11-20 下午2 58 55" src="https://github.com/user-attachments/assets/14ce1ab5-ffde-4ef9-95aa-d836277f10a5" />
+
 IoT Smart Monitoring System / 智能監控系統
 
 Environment monitoring device with temperature, humidity, smoke sensing, OLED display, servo control, MQTT upload, and n8n automation with email alerts.
@@ -38,18 +38,20 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - [x] Sensor reading & wiring / 感測器接線與讀取
 - [x] OLED display
 - [x] MQTT upload
+- [x] n8n automation & email
+- [x] EasyEDA PCB design
+- [x] Fusion 360 enclosure<img 
+- [ ] PCB soldering & assembly / 電路板焊接組裝
+- [ ] 3D print & final test / 3D 列印與最終測試
 
 https://github.com/user-attachments/assets/40baa2ea-6b87-4b77-9cc9-2a9f893a4632
 
+<img width="965" height="716" alt="n8n" src="https://github.com/user-attachments/assets/870e6692-0afe-4065-8da4-445b462f6560" />
 
-- [x] n8n automation & email<img width="965" height="716" alt="n8n" src="https://github.com/user-attachments/assets/870e6692-0afe-4065-8da4-445b462f6560" />
+<img width="668" height="566" alt="PCB" src="https://github.com/user-attachments/assets/45a4ead2-55c3-4926-815c-47ba28a2de46" />
 
-- [x] EasyEDA PCB design <img width="668" height="566" alt="PCB" src="https://github.com/user-attachments/assets/45a4ead2-55c3-4926-815c-47ba28a2de46" />
+width="706" height="534" alt="3D print" src="https://github.com/user-attachments/assets/e2c33704-92fd-432f-af53-b3133e886a4c" />
 
-- [x] Fusion 360 enclosure<img width="706" height="534" alt="3D print" src="https://github.com/user-attachments/assets/e2c33704-92fd-432f-af53-b3133e886a4c" />
-
-- [ ] PCB soldering & assembly / 電路板焊接組裝
-- [ ] 3D print & final test / 3D 列印與最終測試
 
 ## Notes 
 
