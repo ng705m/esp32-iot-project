@@ -1,4 +1,4 @@
-<img width="706" height="534" alt="螢幕截圖 2026-11-28 下午3 46 31" src="https://github.com/user-attachments/assets/322821e4-1826-4a2e-8849-a32238c2c288" /># ESP32 IoT Smart Monitoring System / 智能監控系統
+IoT Smart Monitoring System / 智能監控系統
 
 Environment monitoring device with temperature, humidity, smoke sensing, OLED display, servo control, MQTT upload, and n8n automation with email alerts.
 
