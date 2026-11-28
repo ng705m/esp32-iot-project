@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/40baa2ea-6b87-4b77-9cc9-2a9f893a4632
 
 <img width="668" height="566" alt="PCB" src="https://github.com/user-attachments/assets/45a4ead2-55c3-4926-815c-47ba28a2de46" />
 
-width="706" height="534" alt="3D print" src="https://github.com/user-attachments/assets/e2c33704-92fd-432f-af53-b3133e886a4c" />
+<img width="706" height="534" alt="3D print" src="https://github.com/user-attachments/assets/e2c33704-92fd-432f-af53-b3133e886a4c" />
 
 
 ## Notes 
