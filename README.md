@@ -35,14 +35,14 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 
 ## Progress 
 
-- [x] Sensor reading & wiring / 感測器接線與讀取Successfully connected and read data from DHT22 (temperature & humidity) and MQ-2 (smoke sensor) on ESP32.
-- [x] OLED display
-- [x] MQTT upload
-- [x] n8n automation & email
-- [x] EasyEDA PCB design
-- [x] Fusion 360 enclosure<img 
-- [ ] PCB soldering & assembly / 電路板焊接組裝
-- [ ] 3D print & final test / 3D 列印與最終測試
+- [x] Sensor reading & wiring ｜Successfully connected and read data from DHT22 (temperature & humidity) and MQ-2 (smoke sensor) on ESP32.
+- [x] OLED display｜Real-time display of temperature, humidity, and smoke values on a 0.96" OLED screen via I2C.
+- [x] MQTT upload｜Sensor data is packaged in JSON and continuously uploaded to CloudAMQP via MQTT.
+- [x] n8n automation & email｜Self-hosted n8n (Docker) receives data and sends automated email alerts when temperature exceeds the threshold.
+- [x] EasyEDA PCB design｜Designed custom PCB schematic and layout in EasyEDA based on the breadboard prototype.
+- [x] Fusion 360 enclosure<img ｜Designed a 3D-printable enclosure with cutouts for OLED, sensors, and servo motor.
+- [ ] PCB soldering & assembly / 電路板焊接組裝｜Waiting for PCB to arrive. Next step is soldering components and assembling the board.
+- [ ] 3D print & final test / 3D 列印與最終測試｜Enclosure will be 3D printed, followed by full system integration and final testing.
 
 https://github.com/user-attachments/assets/40baa2ea-6b87-4b77-9cc9-2a9f893a4632
 
