@@ -58,6 +58,11 @@ Environment monitoring device with temperature, humidity, smoke sensing, OLED di
 - [ ] **3D print & final test**  
   Enclosure will be 3D printed, followed by full system integration and final testing.
 
+
+
+
+
+
 https://github.com/user-attachments/assets/40baa2ea-6b87-4b77-9cc9-2a9f893a4632
 
 <img width="965" height="716" alt="n8n" src="https://github.com/user-attachments/assets/870e6692-0afe-4065-8da4-445b462f6560" />
